@@ -7,8 +7,8 @@ public class ArrayLengthHandling{
     // Use the length variable,start with zero.
     int length = 0;
 
-    // Add 3 items into it.
-    for (int i = 0; i < 10; i++) {
+    // Add 5 items into it.anything above 5 will run into error
+    for (int i = 0; i < 5; i++) {
         array[i] = i * i;
     // Each time we add an element, the length goes up by one
     length++;
