@@ -4,7 +4,15 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
         
-        int index =1; //consider first element to be always unique
+               
+          // Check for edge cases.
+          if (nums == null) {
+              return 0;
+          }
+        
+        int index =1; //consider first element to be always unique, it shouldn't be touched
+        
+        //two pointer technique : index and i
         
         for (int i=0; i< nums.length -1 ; i++){
             
