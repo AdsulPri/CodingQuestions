@@ -1,2 +1,13 @@
+
+Q1 : FACEBOOK - TWO SUM (Leetcode)
+https://www.youtube.com/watch?v=Aql6zHkONek
+
+Q2 : LeetCode Longest Substring Without Repeating Characters Solution Explained - Java
+https://www.youtube.com/watch?v=3IETreEybaA
+
+
 Q3 : Longest Palindromic Substring (Algorithm Explained)
 https://www.youtube.com/watch?v=y2BD4MJqV20
+
+Q4 : Container With Most Water  FACEBOOK MICRO GOOGLE
+https://www.youtube.com/watch?v=TI3e-17YAlc
