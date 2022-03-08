@@ -18,6 +18,7 @@ class Solution {
                 stack.pop();                
             }else{
                 return false; // important in case of [(}})]
+                //OR stack.push(c);
             }
         }
         
