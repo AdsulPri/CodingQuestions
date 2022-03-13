@@ -12,7 +12,7 @@ class Solution {
             //sort
             Arrays.sort(characters);
             //create new string
-            String sorted = new String(characters);
+            String sorted = new String(characters); // OR String.valueOf(characters)
             
             if(!map.containsKey(sorted)){
                 map.put(sorted, new ArrayList<>()); //add empty list as value
@@ -23,7 +23,7 @@ class Solution {
         
         groupedanagrams.addAll(map.values()); // IMP method to add all values from map 
         
-        return groupedanagrams;
+        return groupedanagrams; // OR new ArrayLst<>(map.values())
         
     }
 }
