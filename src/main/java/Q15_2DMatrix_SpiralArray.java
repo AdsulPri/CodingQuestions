@@ -6,17 +6,17 @@ class Solution {
         
        List<Integer> res = new ArrayList<>();
         
-        if(matrix == null || matrix.length == 0)
+        if(matrix == null || matrix.length == 0) //importaant
             return res;
             
         //matrix [ROW][COL]
         int rStart = 0;
-        int rEnd = matrix.length - 1;
+        int rEnd = matrix.length - 1; //-1 to avoid further verbose
         int cStart = 0;
-        int cEnd = matrix[0].length - 1;
+        int cEnd = matrix[0].length - 1; // -1 to avoid further verbose
         
         
-        while(cStart <= cEnd && rStart <= rEnd ){
+        while(cStart <= cEnd && rStart <= rEnd ){ //AND condition
             
             // forward row RIGHT
             
