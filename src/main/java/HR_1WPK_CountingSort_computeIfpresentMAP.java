@@ -44,6 +44,19 @@ class Result {
 
 }
 
+//ALTERNATE
+/*
+public static List<Integer> countingSort(List<Integer> arr) {
+	List<Integer> result = new ArrayList<Integer>();
+	int[] frequency = new int[100];
+	for(Integer each: arr)
+			frequency[each] += 1;
+	for(int each : frequency)
+			result.add(each);
+	return result;
+    }
+*/
+
 public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
