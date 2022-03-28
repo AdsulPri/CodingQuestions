@@ -26,12 +26,12 @@ class Result {
     StringBuilder result = new StringBuilder();
     
     for (char c : s.toCharArray()){
-        if((c >= 'a' && c <= 'z') ){ //Character.isLowerCase(c)
+        if((c >= 'a' && c <= 'z') ){ //Character.isLowerCase(c) && Character.isAlphabetic(c)
             int originalAlphaPosition = c - 'a';
             int newAlphaPosition = (originalAlphaPosition + k)%26;
             char newAlpha = (char) (newAlphaPosition + 'a');
             result.append(newAlpha);
-        } else if((c >= 'A' && c <= 'Z')){//Character.isUpperCase(c)
+        } else if((c >= 'A' && c <= 'Z')){//Character.isUpperCase(c) && Character.isAlphabetic(c)
             int originalAlphaPosition = c - 'A';
             int newAlphaPosition = (originalAlphaPosition + k)%26;
             char newAlpha = (char) (newAlphaPosition + 'A');
